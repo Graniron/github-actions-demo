@@ -1,0 +1,23 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir public && cp index.html public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graniron/github-actions-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Graniron/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/Graniron/github-actions-demo#readme",
+  "devDependencies": {
+    "now": "^16.2.0"
+  }
+}

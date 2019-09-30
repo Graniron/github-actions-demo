@@ -1,0 +1,15 @@
+name: Deploy
+
+on: push
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install Deps and Deploy
+        run: |
+          npm i
+          now --token ${{ secrets.NOW_TOKEN }}
